@@ -1,1 +1,1 @@
-# sustainable-scientific-software
+# Sustainable scientific software
