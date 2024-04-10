@@ -7,11 +7,12 @@ via email to [mailto:jack.hale@uni.lu](jack.hale@uni.lu) with a
 `SURNAME_homework1.zip` or `SURNAME_homework2.tar.gz` file containing your work with
 the subject "Sustainable Scientific Software Homework 1".
 
-Technical questions and requests clarifications must be asked in the Moodle
+Technical questions and requests for clarifications must be asked in the Moodle
 thread.
 
 You are welcome to use Google, Stackoverflow etc. to scope out answers - you
-will usually need to combine multiple queries to get a solution.
+will usually need to combine multiple queries to get a solution. You may
+consult with others in the class but sharing solutions is forbidden.
 
 Differentiating points for assessment:
 
