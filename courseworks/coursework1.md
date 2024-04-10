@@ -1,115 +1,51 @@
-### Exercise 1: Basic Scripting Concepts
+## Homework 1
 
-#### Objective:
-Demonstrate understanding of basic Unix shell scripting concepts such as variables, loops, and conditionals.
+## Instructions
 
-#### Task:
-Write a shell script that performs the following tasks:
-1. Accepts a user's name as input.
-2. Greets the user with a personalized message.
-3. Displays the current date and time.
+The deadline for submission is Friday 26th April 2024 end of day. Please
+submit an email with a .zip or .tar.gz file containing your work.
 
-#### Deliverables:
-- Shell script file (`greet_user.sh`) containing the implementation.
-- README file explaining the script's functionality and usage instructions.
+You are free to use Google, Stackoverflow etc. to scope out answers - you will
+usually need to combine multiple parts to get a solution.
 
----
+Points of assessment:
 
-### Exercise 2: File Management Automation
+1. Concise high quality comments in scripts.
+2. Consistent use of white space (indending, tabs etc.) 
 
-#### Objective:
-Automate basic file management tasks using shell scripting.
+## Exercises
 
-#### Task:
-Write a shell script that automates file backup:
-1. Accepts a file or directory path as input.
-2. Creates a backup of the specified file or directory.
-3. Appends the current date to the backup filename.
-4. Displays a confirmation message upon successful backup.
+1. Write a bash shell script that selects the n longest lines from a text file
+   passed as an argument. The output of the file should be the n longest
+   lines sorted from longest to shortest with the length prepended, e.g.
 
-#### Deliverables:
-- Shell script file (`backup_files.sh`) containing the implementation.
-- README file explaining the script's functionality and usage instructions.
+       ./longest_lines.sh 4 file1.txt
 
----
+   Place your script in a directory `01/` with a file `file1.txt` for testing.
 
-### Exercise 3: Integration with System Utilities
+2. During the course we briefly touched upon the concept of standard output
+   `stdout` which is the stream to which a program writes its normal output
+   data. The standard error `stderr` is a special output stream which a program
+   can use to write messages that should not be in stdout, such as error
+   messages. This is useful because we typically do not want error (or status
+   messages) passed through `stdout` to downstream programs.
 
-#### Objective:
-Integrate shell scripts with system utilities to perform basic system monitoring.
+   In a new directory `02/` modify a copy the script `longest_lines.sh` to echo
+   an informative error message to stderr and signal an error using `exit` if
+   the number of arguments passed is not equal to two.
 
-#### Task:
-Write a shell script that monitors system resource usage using `df` and `free` commands:
-1. Executes the `df` command to display disk space usage.
-2. Executes the `free` command to display memory usage.
-3. Logs the information to a file for future reference.
+   Additionally, check that the file passed exists and also echo an informative
+   error message and `exit`.
 
-#### Deliverables:
-- Shell script file (`system_monitor.sh`) containing the implementation.
-- README file explaining the script's functionality and usage instructions.
+3. Write a one-liner script `user_environment.sh` that prints the name of all
+   environment variables `env` that contain the username of the current user
+   `whoami`. You may find the command `cut` useful to get the variable name
+   alone.
 
----
+   Place your script in a directory `03/`.
 
-### Exercise 4: Script Optimization
-
-#### Objective:
-Optimize shell scripts to improve performance and efficiency.
-
-#### Task:
-Optimize the `backup_files.sh` script from Exercise 2:
-1. Refactor the script to improve code readability.
-2. Implement error handling to ensure smooth execution.
-3. Provide feedback to the user during the backup process.
-
-#### Deliverables:
-- Optimized version of `backup_files.sh` script.
-- README file explaining the script's functionality and usage instructions.
-
----
-
-### Exercise 5: Real-world Simulation
-
-#### Objective:
-Apply shell scripting skills to solve a real-world problem scenario.
-
-#### Task:
-Simulate a scenario where log files need to be managed:
-1. Write a shell script that searches for log files older than a specified number of days.
-2. Archives the old log files to a separate directory.
-3. Generates a report indicating the number of log files archived.
-
-#### Deliverables:
-- Shell script file (`manage_logs.sh`) containing the implementation.
-- README file explaining the script's functionality and usage instructions.
-
-### Exercise 6: Text Processing and Manipulation
-
-#### Objective:
-Demonstrate proficiency in text processing and manipulation using shell scripting.
-
-#### Task:
-Write a shell script that performs the following tasks:
-1. Accepts a text file as input.
-2. Counts the total number of words in the file.
-3. Removes all occurrences of a specified word from the file.
-4. Displays the modified content and the word count after removal.
-
-#### Deliverables:
-- Shell script file (`text_processing.sh`) containing the implementation.
-- README file explaining the script's functionality and usage instructions.
-
-### Exercise 7: System Monitoring and Alerting
-
-#### Objective:
-Develop a shell script for system monitoring and alerting.
-
-#### Task:
-Write a shell script that monitors CPU usage:
-1. Checks the current CPU usage.
-2. Compares it with a predefined threshold.
-3. Sends an email alert if the CPU usage exceeds the threshold.
-4. Logs the alert with timestamp for future reference.
-
-#### Deliverables:
-- Shell script file (`cpu_monitor.sh`) containing the implementation.
-- README file explaining the script's functionality and usage instructions.
+4. Write a script `file_type_counter.sh` that takes a directory as input and
+   prints the count of each unique file type (based on the extension e.g.
+   `.txt`) within that directory and all subdirectories. You may find `find`,
+   `cut` and `rev` useful, alongside some other commands we saw during the
+   course.
