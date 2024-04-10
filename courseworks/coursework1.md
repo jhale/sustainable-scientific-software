@@ -3,7 +3,7 @@
 ## Instructions
 
 The deadline for submission is Friday 26th April 2024 end of day. Please submit
-via email to [jack.hale@uni.lu](mailto:jack.hale@uni.lu) with a
+via email to [jack.hale@uni.lu](mailto:jack.hale@uni.lu) with an archive file e.g.
 `SURNAME_homework1.zip` or `SURNAME_homework2.tar.gz` file containing your work with
 the subject "Sustainable Scientific Software Homework 1".
 
