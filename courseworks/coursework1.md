@@ -2,16 +2,23 @@
 
 ## Instructions
 
-The deadline for submission is Friday 26th April 2024 end of day. Please
-submit an email with a .zip or .tar.gz file containing your work.
+The deadline for submission is Friday 26th April 2024 end of day. Please submit
+via email to (mailto:jack.hale@uni.lu)[jack.hale@uni.lu] with a
+`HALE_homework1.zip` or `HALE_homework2.tar.gz` file containing your work with
+the subject "Sustainable Scientific Software Homework 1".
 
-You are free to use Google, Stackoverflow etc. to scope out answers - you will
-usually need to combine multiple parts to get a solution.
+Technical questions and requests clarifications must be asked in the Moodle
+thread.
 
-Points of assessment:
+You are welcome to use Google, Stackoverflow etc. to scope out answers - you
+will usually need to combine multiple queries to get a solution.
+
+Differentiating points for assessment:
 
 1. Concise high quality comments in scripts.
-2. Consistent use of white space (indending, tabs etc.) 
+2. Consistent use of white space (indending, tabs etc.)
+3. Correctness of implementation.
+4. Simplicity - avoid using tools like `sed` and `awk`. 
 
 ## Exercises
 
@@ -22,6 +29,11 @@ Points of assessment:
        ./longest_lines.sh 4 file1.txt
 
    Place your script in a directory `01/` with a file `file1.txt` for testing.
+   To make a script executable you can use
+
+       chmod +x longest_lines.sh
+
+   to set the 'executable bit'.
 
 2. During the course we briefly touched upon the concept of standard output
    `stdout` which is the stream to which a program writes its normal output
@@ -49,3 +61,5 @@ Points of assessment:
    `.txt`) within that directory and all subdirectories. You may find `find`,
    `cut` and `rev` useful, alongside some other commands we saw during the
    course.
+
+   Place your script in a directory `04/`.
