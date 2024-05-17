@@ -1,11 +1,11 @@
-## Homework 1
+## Coursework 1
 
 ## Instructions
 
 The deadline for submission is Friday 26th April 2024 end of day. Please submit
 via email to [jack.hale@uni.lu](mailto:jack.hale@uni.lu) with an archive file e.g.
-`SURNAME_homework1.zip` or `SURNAME_homework2.tar.gz` file containing your work with
-the subject "Sustainable Scientific Software Homework 1".
+`SURNAME_coursework1.zip` or `SURNAME_coursework2.tar.gz` file containing your work with
+the subject "Sustainable Scientific Software Coursework 1".
 
 Technical questions and requests for clarifications must be asked in the Moodle
 thread.

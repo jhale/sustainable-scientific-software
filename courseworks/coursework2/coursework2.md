@@ -1,9 +1,9 @@
-# Homework 2
+# Coursework 2
 
 ## Practicalities
 
 Submission by email to [jack.hale@uni.lu](mailto:jack.hale@uni.lu), Subject:
-Sustainable Scientific Software Homework 2.
+Sustainable Scientific Software Coursework 2.
 
 Please ask questions on the course Moodle.
 
