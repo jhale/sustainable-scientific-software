@@ -2,12 +2,12 @@
 
 ## Practicalities
 
-Submission by email to [jack.hale@uni.lu](mailto:jack.hale@uni.lu), Subject: Sustainable
-Scientific Software Homework 2.
+Submission by email to [jack.hale@uni.lu](mailto:jack.hale@uni.lu), Subject:
+Sustainable Scientific Software Homework 2.
 
 Please ask questions on the course Moodle.
 
-*Deadline: TBC*
+*Deadline: 2nd July end of day. No extensions.*
 
 The email should contain a link to a GitHub repository with:
 
