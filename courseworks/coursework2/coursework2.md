@@ -41,9 +41,7 @@ of:
 4. A continuous integration setup using GitHub Actions.
 
 For reference, you can use my notes that I used during the course
-[here](https://github.com/jhale/computational-workflows/blob/master/README_instructor.md)
-and the references listed at the bottom of the [main course
-page](https://jhale.github.io/computational-workflows/).
+[here](notes/README_instructor.md). 
 
 ## Setting up a git version control repository
 
@@ -51,11 +49,11 @@ page](https://jhale.github.io/computational-workflows/).
    hand corner of the screen. Then click on New Repository.
 
 2. Create a *public* repository called e.g.
-   `jhale/computational-workflows-homework`.
+   `jhale/sustainable-scientific-software-homework`.
 
 3. Clone your repository. In a terminal run, e.g.:
 
-     git clone git@github.com:jhale/computational-workflows-homework.git
+     git clone git@github.com:jhale/sustainable-scientific-software-homework.git
 
    substituting with the correct location of your repository.
 
@@ -67,12 +65,9 @@ page](https://jhale.github.io/computational-workflows/).
 1. Create a file `Dockerfile` in the repository containing the following text.
 
 ```
-FROM ubuntu:21.04
+FROM python:3.12
 
-RUN apt-get -y update && \
-    apt-get install -y python3-minimal python3-ipython python3-pytest python3-numpy && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN pip install pytest numpy
 ```
 
 2. `git add` and `git push` the file `Dockerfile` to the repository.
@@ -85,7 +80,7 @@ RUN apt-get -y update && \
 
 1. `docker build`, `docker login` and `docker push` the image described by the
    `Dockerfile` to the Dockerhub. Tag your Docker image
-   `<yourdockerhubusername>/computational-workflows`.
+   `<yourdockerhubusername>/sss.
 
 ```
 # Add your commands here
@@ -118,9 +113,8 @@ RUN apt-get -y update && \
 ```
 # Add your commands here
 ```
-
 3. Run the tests inside the container by going to `/root/shared` and running the
-   command `py.test-3`. The tests should fail.
+   command `py.test`. The tests should fail.
 
 3. In a terminal on the host modify ``wallet.py`` until the tests in
    ``test_wallet.py`` all pass.
