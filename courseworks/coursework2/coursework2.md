@@ -68,7 +68,10 @@ For reference, you can use my notes that I used during the course
 ```
 FROM python:3.12
 
+RUN apt-get update && apt-get install git
 RUN pip install pytest numpy
+
+CMD ["/bin/bash", "-l"]
 ```
 
 2. `git add` and `git push` the file `Dockerfile` to the repository.
