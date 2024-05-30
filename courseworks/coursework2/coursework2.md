@@ -53,7 +53,7 @@ For reference, you can use my notes that I used during the course
 
 3. Clone your repository. In a terminal run, e.g.:
 
-     git clone git@github.com:jhale/sustainable-scientific-software-homework.git
+       git clone git@github.com:jhale/sustainable-scientific-software-homework.git
 
    substituting with the correct location of your repository.
 
