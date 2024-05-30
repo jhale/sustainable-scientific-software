@@ -42,7 +42,7 @@ of:
 4. A continuous integration setup using GitHub Actions.
 
 For reference, you can use my notes that I used during the course
-[here](notes/README_instructor.md). 
+[here](../../notes/README_instructor.md). 
 
 ## Setting up a git version control repository
 
