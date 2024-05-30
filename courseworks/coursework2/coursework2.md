@@ -9,7 +9,8 @@ Please ask questions on the course Moodle.
 
 *Deadline: 2nd July end of day. No extensions.*
 
-The email should contain a link to a GitHub repository with:
+The email should contain a link to a GitHub repository (shared with me `jhale`
+and `mail@jackhale.co.uk`) with:
 
 * a modified version of this file `README.md` file containing the specific
   commands that you used to complete the exercises. You do not have to include
@@ -48,7 +49,7 @@ For reference, you can use my notes that I used during the course
 1. Go to [GitHub](https://github.com). Click on the plus icon in the top right
    hand corner of the screen. Then click on New Repository.
 
-2. Create a *public* repository called e.g.
+2. Create a *private* repository called e.g.
    `jhale/sustainable-scientific-software-homework`.
 
 3. Clone your repository. In a terminal run, e.g.:
@@ -129,3 +130,9 @@ RUN pip install pytest numpy
 
 3. Push the `.github/workflows/test.yml` file to GitHub. Check that you get the
    green tick showing that your tests pass.
+
+## Submission
+
+1. Ensure that all of your work is pushed to the GitHub repository.
+
+2. Share the repository with me
