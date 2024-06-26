@@ -12,7 +12,7 @@ Please ask questions on the course Moodle.
 The email should contain a link to a GitHub repository (shared with me `jhale`
 and `mail@jackhale.co.uk`) with:
 
-* a modified version of this file `README.md` file containing the specific
+* a modified version of this file `coursework2.md` file containing the specific
   commands that you used to complete the exercises. You do not have to include
   everything, just the key commands. I have left placeholders where these
   commands should go:
@@ -58,8 +58,9 @@ For reference, you can use my notes that I used during the course
 
    substituting with the correct location of your repository.
 
-4. Copy this `README.md` text file to your new repository. `git add`, `git
-   commit` and `git push` it to your repository.
+4. Copy this `coursework2.md` text file to your new repository (download from
+   [here](https://raw.githubusercontent.com/jhale/sustainable-scientific-software/main/courseworks/coursework2/coursework2.md).
+   `git add`, `git commit` and `git push` it to your repository.
 
 ## Dockerfile
 
