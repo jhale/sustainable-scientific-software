@@ -1,12 +1,11 @@
 # Sustainable Scientific Software
-## Winter Semester 2023/2024, Masters in Industrial Mathematics
+## Summer Semester 2024/2024, Masters in Mathematics
 
 #### Dates
-Weekly on Thursdays 1130-1300 in MNO 1.050. 22nd Feb - 30th May excl. 4th
-April.
+Weekly on Friday 0800-1000 in MNO 1.050. Check acme.uni.lu for details.
 
 Instructor: Jack S. Hale ([jack.hale@uni.lu](mailto:jack.hale@uni.lu)). Office
-hours: 1000-1130 Thursdays, with prior appointment.
+hours: 1300-1500 Fridays, with prior appointment.
 
 ### Description
 
