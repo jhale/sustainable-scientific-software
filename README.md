@@ -1,8 +1,8 @@
 # Sustainable Scientific Software
-## Summer Semester 2024/2024, Masters in Mathematics
+## Summer Semester 2024/2025, Masters in Mathematics
 
 #### Dates
-Weekly on Friday 0800-1000 in MNO 1.050. Check acme.uni.lu for details.
+Typically weekly on Friday 0800-1000. Check acme.uni.lu for precisions.
 
 Instructor: Jack S. Hale ([jack.hale@uni.lu](mailto:jack.hale@uni.lu)). Office
 hours: 1300-1500 Fridays, with prior appointment.
@@ -16,7 +16,7 @@ develop numerical and scientific software that is sustainable and reproducible.
 
 * You must bring a laptop with working WiFi access.
 
-* We will use [Etherpad](https://pad.carpentries.org/sss2024), a live
+* We will use [Etherpad](https://pad.carpentries.org/sss2025), a live
   collaborative note taking application. Etherpad is public, please use a
   pseudonym and do not reveal any personal information.
 
@@ -37,7 +37,7 @@ will be explained with each piece of coursework.
 ### Retake policy
 
 This course is assessed on the basis of two courseworks and attendance at the
-practicals on Thursdays (mandatory, subject to the UL study regulations).
+practicals on Fridays (mandatory, subject to the UL study regulations).
 
 In case of sufficient attendance and failure of the courseworks, you can
 resubmit the assessment/coursework during the following semester.
