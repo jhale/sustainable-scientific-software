@@ -7,7 +7,7 @@ Sustainable Scientific Software Coursework 2.
 
 Please ask questions on the course Moodle.
 
-*Deadline: 2nd July end of day. No extensions.*
+*Deadline: 11th June end of day. No extensions.*
 
 The email should contain a link to a GitHub repository (shared with me `jhale`
 and `mail@jackhale.co.uk`) with:
@@ -69,7 +69,6 @@ For reference, you can use my notes that I used during the course
 ```
 FROM python:3.12
 
-RUN apt-get update && apt-get install git
 RUN pip install pytest numpy
 
 CMD ["/bin/bash", "-l"]
@@ -139,4 +138,4 @@ CMD ["/bin/bash", "-l"]
 
 1. Ensure that all of your work is pushed to the GitHub repository.
 
-2. Share the repository with me
+2. Share the repository with me at `jhale` and/or `mail@jackhale.co.uk`.
