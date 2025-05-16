@@ -84,7 +84,7 @@ CMD ["/bin/bash", "-l"]
 
 1. `docker build`, `docker login` and `docker push` the image described by the
    `Dockerfile` to the Dockerhub. Tag your Docker image
-   `<yourdockerhubusername>/sss.
+   `<yourdockerhubusername>/sss`.
 
 ```
 # Add your commands here
