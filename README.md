@@ -1,11 +1,11 @@
 # Sustainable Scientific Software
-## Summer Semester 2024/2025, Masters in Mathematics
+## Summer Semester 2025/2026, Masters in Mathematics
 
 #### Dates
-Typically weekly on Friday 0800-1000. Check acme.uni.lu for precisions.
+Check acme.uni.lu for precisions.
 
 Instructor: Jack S. Hale ([jack.hale@uni.lu](mailto:jack.hale@uni.lu)). Office
-hours: 1300-1500 Fridays, with prior appointment.
+hours: 1300-1500 same day as course, with prior appointment.
 
 ### Description
 
@@ -31,13 +31,13 @@ Students must know Python and have basic knowledge of a Unix shell, e.g. bash.
 ### Assessment
 
 Three courseworks will be distributed during the course. To pass the course and
-receive the ECTS credits you must complete the coursework. The marking schedule
+receive the ECTS credits you must complete the coursework. The marking scheme
 will be explained with each piece of coursework.
 
 ### Retake policy
 
 This course is assessed on the basis of two courseworks and attendance at the
-practicals on Fridays (mandatory, subject to the UL study regulations).
+practicals (mandatory, subject to the UL study regulations).
 
 In case of sufficient attendance and failure of the courseworks, you can
 resubmit the assessment/coursework during the following semester.
