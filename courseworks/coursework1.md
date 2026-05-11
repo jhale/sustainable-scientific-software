@@ -2,7 +2,7 @@
 
 ## Instructions
 
-The deadline for submission is Wednesday 27th May 2026 end of day. Please
+The deadline for submission is Friday 12th June 2026 end of day. Please
 submit via email to [jack.hale@uni.lu](mailto:jack.hale@uni.lu) with an archive
 file e.g. `SURNAME_coursework1.zip` file containing your work with the subject
 "Sustainable Scientific Software Coursework 1".
