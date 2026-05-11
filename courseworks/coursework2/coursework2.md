@@ -130,7 +130,10 @@ CMD ["/bin/bash", "-l"]
 
 1. Using the example in the class notes make a `.github/workflows/test.yml`
    file that checks out your repository and runs the unit tests inside the
-   Docker image that you pushed to the DockerHub.
+   Docker image that you pushed to the DockerHub. Note that if you are using an
+   x86-64-based computer (most Windows PCs, old Macs) you need to use the
+   `ubuntu-latest` runner type, and if you are using an ARM-based computer, you
+   need to use the `ubuntu-24.04-arm` runner type.
 
 3. Push the `.github/workflows/test.yml` file to GitHub. Check that you get the
    green tick showing that your tests pass.
