@@ -9,7 +9,8 @@ Please ask questions on the course Moodle.
 
 *Deadline: 12th June end of day. No extensions.*
 
-The email should contain a link to a GitHub repository (shared with me `jhale`
+The email with exact subject "Sustainable Scientific Software Coursework 2"
+should contain a link to a GitHub repository (shared with me `jhale`
 and `mail@jackhale.co.uk`) with:
 
 * a modified version of this file `coursework2.md` file containing the specific
